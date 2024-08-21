@@ -491,11 +491,11 @@ const ShoppingCart = () => {
 						</div>
 						<h1 className='mt-5 text-[36px] font-bold text-slate-800 lg:text-[50px]'>
 							
-							Xarid kartasi bo'sh
+							Xarid kartasi bush
 						</h1>
 						<p className='text-slate-600 mt-5 lg:text-lg'>
 						
-							Siz qidirayotgan sahifa mavjud emas yoki
+							Sez qidirayotgan sahifa mavjud emas yoki
 							olib tashlandi.
 						</p>
 						<Link href={'/contact'}>

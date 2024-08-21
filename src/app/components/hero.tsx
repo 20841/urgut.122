@@ -23,7 +23,8 @@ const Hero = () => {
         
       <div className="flex flex-col md:flex-row items-center">
   <Link href="https://google.com">
-    <button className="bg-gray-100 inline-flex py-3 px-5 rounded-lg items-center hover:bg-gray-200 focus:outline-none">
+
+     <button className="bg-gray-100 inline-flex py-3 px-5 rounded-lg items-center hover:bg-gray-200 focus:outline-none">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         fill="currentColor"
@@ -37,6 +38,8 @@ const Hero = () => {
         <span className="title-font font-medium">Google Play</span>
       </span>
     </button>
+ 
+   
   </Link>
 
   <Link href="https://apps.apple.com">
@@ -55,6 +58,8 @@ const Hero = () => {
         <span className="title-font font-medium">App Store</span>
       </span>
     </button>
+
+    
   </Link>
 </div>
 
