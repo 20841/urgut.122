@@ -11,14 +11,22 @@ const ContactsPage = () => {
   <div className="container px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap">
     <div className="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
       
-       <iframe 
-              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d98647.75763933444!2d67.259717!3d39.407333!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f4cceddab60958d%3A0x7d078a7b48ff2c08!2z0KPRgNCz0YPRgiwg0KHQsNC80LDRgNC60LDQvdC00YHQutCw0Y8g0L7QsdC70LDRgdGC0YwsINCj0LfQsdC10LrQuNGB0YLQsNC9!5e0!3m2!1sru!2sru!4v1723901939968!5m2!1sru!2sru"
-              width="100%" height="100%" className="absolute inset-0" frameborder="0" title="map" marginheight="0" marginwidth="0" scrolling="no"
-              style={{ border: '0' }} 
-              allowfullscreen="" 
-              loading="lazy" 
-              referrerpolicy="no-referrer-when-downgrade">
-              </iframe>
+    <iframe
+  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d98647.75763933444!2d67.259717!3d39.407333!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f4cceddab60958d%3A0x7d078a7b48ff2c08!2z0KPRgNCz0YPRgiwg0KHQsNC80LDRgNC60LDQvdC00YHQutCw0Y8g0L7QsdC70LDRgdGC0YwsINCj0LfQsdC10LrQuNGB0YLQsNC9!5e0!3m2!1sru!2sru!4v1723901939968!5m2!1sru!2sru"
+  width="100%"
+  height="100%"
+  className="absolute inset-0"
+  frameBorder="0"
+  title="map"
+ 
+ 
+  scrolling="no"
+  style={{ border: '0' }}
+  allowFullScreen
+  loading="lazy"
+  referrerPolicy="no-referrer-when-downgrade"
+/>
+
 
 
       <div className="">
