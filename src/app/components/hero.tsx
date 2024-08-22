@@ -9,8 +9,8 @@ const Hero = () => {
     <Image src={'/urgut.png'} alt={'logo'} width={350} height={240} />
     </div>
     <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
-      <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Ro'yhatdan o'tish</h1>
-      <p className="mb-8 leading-relaxed">Chillwave portland ugh, knausgaard fam polaroid iPhone. Man braid swag typewriter affogato, hella selvage wolf narwhal dreamcatcher.</p>
+    <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Ro&apos;yhatdan o&apos;tish</h1>
+    <p className="mb-8 leading-relaxed">Chillwave portland ugh, knausgaard fam polaroid iPhone. Man braid swag typewriter affogato, hella selvage wolf narwhal dreamcatcher.</p>
       <div className="flex w-full md:justify-start justify-center items-end">
         <div className="relative mr-4 lg:w-full xl:w-1/2 w-2/4">
           <label htmlFor="hero-field" className="leading-7 text-sm text-gray-600">Placeholder</label>
